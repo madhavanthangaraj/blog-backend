@@ -7,7 +7,8 @@ const nodemailer = require("nodemailer");
 
 const app = express();
 const allowedOrigins = [
-  "http://localhost:3000"
+  "http://localhost:3000",
+  "https://blog-frontend-seven-sable.vercel.app"
 ];
 
 const corsOptions = {
